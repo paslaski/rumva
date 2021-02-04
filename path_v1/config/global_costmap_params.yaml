@@ -1,0 +1,11 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_link
+  update_frequency: 5.0
+  static_map: true
+
+
+# # determines whether or not to load an existent map provided by the map_server
+# static_map: false
+# # set to true to effectively remove the need for an a priori map
+# rolling_window: true
